@@ -1,5 +1,8 @@
 # gulp-git
 
+> ### Forked Version using updated dependencies
+> Original repo at https://github.com/stephenlacy/gulp-git
+
 [![Build Status](https://travis-ci.org/stevelacy/gulp-git.png?branch=master)](https://travis-ci.org/stevelacy/gulp-git)
 [![NPM version](https://badge.fury.io/js/gulp-git.png)](http://badge.fury.io/js/gulp-git)
 

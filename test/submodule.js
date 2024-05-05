@@ -9,7 +9,7 @@ module.exports = function(git) {
   it('should add a submodule to the git repo', function(done) {
 
     var opt = {cwd: 'test/repo'};
-    var url = 'https://github.com/stevelacy/git-test';
+    var url = 'https://github.com/stephenlacy/gulp-git';
 
     git.addSubmodule(url, 'testSubmodule', opt, function() {
 

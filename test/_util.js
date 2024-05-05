@@ -25,7 +25,7 @@ var testFiles = (function() {
       base: 'test/repo',
       cwd: 'test/repo',
       path: __dirname + '/repo/test.' + i + '.js',
-      contents: new Buffer(fileContents())
+      contents: Buffer.from(fileContents())
     };
     fs.openSync(testFiles[i].path, 'w');
   }
@@ -39,7 +39,7 @@ var testOptionsFiles = (function() {
       base: 'test/repo',
       cwd: 'test/repo',
       path: __dirname + '/repo/test.options.' + i + '.js',
-      contents: new Buffer(fileContents())
+      contents: Buffer.from(fileContents())
     });
     fs.openSync(testFiles[i].path, 'w');
   }

@@ -12,7 +12,7 @@ module.exports = function(git) {
         should.not.exist(err);
         fs.readFileSync('./test/repo/.git/config')
           .toString('utf8')
-          .should.not.match(/https:\/\/github.com\/stevelacy\/git-test/);
+          .should.not.match(/https:\/\/github.com\/stephenlacy\/gulp-git/);
         done();
       });
     });

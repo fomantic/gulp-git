@@ -7,7 +7,7 @@ module.exports = function (git) {
   var repoPath = './test/tmp';
 
   beforeEach(function (done) {
-    var repo = 'git://github.com/stevelacy/git-test';
+    var repo = 'https://github.com/stephenlacy/gulp-git';
     git.clone(repo, { args: repoPath }, done);
   });
 

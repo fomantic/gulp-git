@@ -7,7 +7,7 @@ var should = require('should');
 module.exports = function(git) {
 
   beforeEach(function(done) {
-    var repo = 'git://github.com/stevelacy/gulp-git';
+    var repo = 'https://github.com/stephenlacy/gulp-git';
     git.clone(repo, {args: './test/tmp'}, done);
   });
 
