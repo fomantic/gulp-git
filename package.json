@@ -1,7 +1,7 @@
 {
-  "name": "@fomanic/gulp-git",
+  "name": "@fomantic/gulp-git",
   "description": "Git plugin for gulp (gulpjs.com)",
-  "version": "2.11.0",
+  "version": "2.11.1",
   "homepage": "http://github.com/fomantic/gulp-git",
   "repository": {
     "type": "git",
