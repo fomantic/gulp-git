@@ -4,7 +4,7 @@
 > Original repo at https://github.com/stephenlacy/gulp-git
 
 [![Build Status](https://travis-ci.org/stevelacy/gulp-git.png?branch=master)](https://travis-ci.org/stevelacy/gulp-git)
-[![NPM version](https://badge.fury.io/js/gulp-git.png)](http://badge.fury.io/js/gulp-git)
+[![NPM version](https://badge.fury.io/js/@fomantic%2Fgulp-git.png)](https://badge.fury.io/js/@fomantic%2Fgulp-git)
 
 <table>
 <tr>
@@ -16,11 +16,11 @@
 </tr>
 <tr>
 <td>Node Version</td>
-<td>>= 0.9</td>
+<td>>=18.18</td>
 </tr>
 <tr>
 <td>Gulp Version</td>
-<td>3.x</td>
+<td>4.x</td>
 </tr>
 </table>
 
