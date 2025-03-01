@@ -35,8 +35,7 @@ module.exports = function(git) {
   });
 
   after(function(done) {
-    rimraf('test/repo/testSubmodule', function(err) {
-      if (err) return done(err);
+    rimraf('./test/repo/testSubmodule').then(function() {
       done();
     });
   });

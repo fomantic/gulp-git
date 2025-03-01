@@ -30,8 +30,7 @@ module.exports = function(git) {
   });
 
   afterEach(function(done) {
-    rimraf('./test/tmp', function(err) {
-      if (err) return done(err);
+    rimraf('./test/tmp').then(function() {
       done();
     });
   });

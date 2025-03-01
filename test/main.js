@@ -27,9 +27,9 @@ describe('gulp-git', function() {
 
   // wipe
   after(function(done) {
-    rimraf('test/repo', function(err) {
-      if (err) return done(err);
+    rimraf('./test/repo').then(function() {
       done();
     });
+    done();
   });
 });
